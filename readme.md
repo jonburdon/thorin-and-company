@@ -50,6 +50,9 @@ Applied a bootstrap theme by downloading from startbootstrap.com and adding cust
 Added some content from Lord of The Rings Wiki using Bootstrap classes.
 Refactor to pass page titles from app.py to each page, to be displayed within h2 tags.
 
+### Working with data
+Create company.json file which contains data on Thorin & Company (name, bio, image url)
+Display the above in about.html
 
 ### Logic
 Add list data 1,2,3 to app.py and use a for loop on about.html to display this data in three <p> tags.
