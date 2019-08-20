@@ -53,6 +53,7 @@ Refactor to pass page titles from app.py to each page, to be displayed within h2
 ### Working with data
 Create company.json file which contains data on Thorin & Company (name, bio, image url)
 Display the above in about.html
+Iterate through json data to display each member of the company on the about.html page
 
 ### Logic
 Add list data 1,2,3 to app.py and use a for loop on about.html to display this data in three <p> tags.
