@@ -51,6 +51,9 @@ Added some content from Lord of The Rings Wiki using Bootstrap classes.
 Refactor to pass page titles from app.py to each page, to be displayed within h2 tags.
 
 
+### Logic
+Add list data 1,2,3 to app.py and use a for loop on about.html to display this data in three <p> tags.
+
 
 ### Resources and reference / support used
 VSCode setup Instructions:
