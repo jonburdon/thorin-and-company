@@ -1,5 +1,8 @@
 # Flask Introduction
 
+Project created following tutorial followed from the Code Institute. Adapted to use VSCode on a mac instead of AWS Cloud9 as used in the tutorial.
+This readme file is the developers own documentation for the learning project.
+
 ## Project Aims
 * Create a Fan Page for Thorin and Company
 
@@ -9,6 +12,7 @@
 * Make code re-usable by using template logic
 * Use Jinja templating language to achieve above
 * Use template inheritance to keep identical navbar across all pages.
+* Add pages and integrate data
 * Use forms to take data from client and pass to server
 * Post data from a HTML form to the backend
 * Deploy a Flask project using Heroku
@@ -40,7 +44,19 @@ Refactor to include three views and routes, using Jinja templating to direct to 
 Use inheritance to set up template for header area and pass content in to the template.
 
 ### Styling
-Apply a bootstrap theme.
+Applied a bootstrap theme by downloading from startbootstrap.com and adding custom Jinja code to link to files.
+
+### Content
+Added some content from Lord of The Rings Wiki using Bootstrap classes.
+
+
 
 ### Resources and reference / support used
+VSCode setup Instructions:
 https://code.visualstudio.com/docs/python/tutorial-flask
+
+Bootstrap template from:
+https://startbootstrap.com/themes/clean-blog/
+
+Text content from:
+https://lotr.fandom.com/wiki/Thorin_and_Company
