@@ -19,8 +19,11 @@
     
 
     <div class="row featurette">
+
+        {% if loop.index % 2 != 0 %}
+
         <div class="col-md-7">
-            <h3>{{ loop.index }}{{ member.name }}</h3>
+            <h3>{{ loop.index }} {{ member.name }}</h3>
             <p>
                     {{ member.description }}
             </p>
@@ -28,6 +31,21 @@
         <div class="col-md-5">
             <img class="featurette-image img-responsive" src="{{ member.image_source }}">
         </div>
+        {% else %}
+        <div class="col-md-5">
+                <img class="featurette-image img-responsive" src="{{ member.image_source }}">
+        </div>
+
+
+        <div class="col-md-7">
+                <h3>{{ loop.index }}{{ member.name }}</h3>
+                <p>
+                        {{ member.description }}
+                </p>
+        </div>
+
+        {% endif %}
+
     </div>
     <hr class="featurette-divider">
     {% endfor %}
