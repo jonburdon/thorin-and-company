@@ -26,5 +26,9 @@ Create instance of flash within app.py with **app = Flask(__name__)**
 
 In Terminal **python3 -m flask run** to run the app and serve
 
+### Rendering html
+Import the **render_template** function from Flask and use this to render files eg index.html
+Html files saved in templates folder for Flask conventions.
+
 ### Resources and reference / support used
 https://code.visualstudio.com/docs/python/tutorial-flask
