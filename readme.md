@@ -30,10 +30,17 @@ In Terminal **python3 -m flask run** to run the app and serve
 ### Rendering html
 Import the **render_template** function from Flask and use this to render files eg index.html
 Html files saved in templates folder for Flask conventions.
-Add routing / for index.html and /about for about.html
+
 
 ### Routing
-Introduced three views and routes, using Jinja templating to direct to corresponding html files.
+Add routing using / for index.html and /about for about.html
+Refactor to include three views and routes, using Jinja templating to direct to corresponding html files.
+
+### Inheritance
+Use inheritance to set up template for header area and pass content in to the template.
+
+### Styling
+Apply a bootstrap theme.
 
 ### Resources and reference / support used
 https://code.visualstudio.com/docs/python/tutorial-flask
