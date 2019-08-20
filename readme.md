@@ -8,6 +8,7 @@
 * Serve HTML/CSS/JS from the back end
 * Make code re-usable by using template logic
 * Use Jinja templating language to achieve above
+* Use template inheritance to keep identical navbar across all pages.
 * Use forms to take data from client and pass to server
 * Post data from a HTML form to the backend
 * Deploy a Flask project using Heroku
@@ -29,6 +30,10 @@ In Terminal **python3 -m flask run** to run the app and serve
 ### Rendering html
 Import the **render_template** function from Flask and use this to render files eg index.html
 Html files saved in templates folder for Flask conventions.
+Add routing / for index.html and /about for about.html
+
+### Routing
+Introduced three views and routes, using Jinja templating to direct to corresponding html files.
 
 ### Resources and reference / support used
 https://code.visualstudio.com/docs/python/tutorial-flask
