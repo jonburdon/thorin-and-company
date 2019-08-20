@@ -48,6 +48,7 @@ Applied a bootstrap theme by downloading from startbootstrap.com and adding cust
 
 ### Content
 Added some content from Lord of The Rings Wiki using Bootstrap classes.
+Refactor to pass page titles from app.py to each page, to be displayed within h2 tags.
 
 
 
