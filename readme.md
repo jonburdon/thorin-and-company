@@ -117,6 +117,21 @@ Set Config vars to: IP 0.0.0.0 and PORT to 5000
 Click **More <>** button **Restart all dynos** in Heroku
 App should now be running fully in the browser.
 
+#### Troubleshooting
+Needed to replace:
+
+if __name__ == "__main__": 
+    app.run(debug=True) 
+with
+if __name__ == '__main__':
+    app.run(host=os.environ.get('IP'),
+            port=int(os.environ.get('PORT')),
+            debug=True)
+
+In app.py
+
+By using the IP and PORT environment variables in your code you can keep the same code for all computers and then set the values locally in config vars or in a bash script. 
+
 ### Resources and reference / support used
 VSCode setup Instructions:
 https://code.visualstudio.com/docs/python/tutorial-flask
