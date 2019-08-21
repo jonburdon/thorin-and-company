@@ -84,6 +84,16 @@ Use **heroku login** to login from CLI. (Opens browser)
 Use **heroku apps** to list apps created
 Can use **heroku apps:rename newnamehere --app currentnamehere** to rename
 Check app is running eg **https://thorin-and-company-learning.herokuapp.com/**
+Link github repo to Heroku
+Create requirements.txt
+Create proc file to instruct Heroku how to run project
+Use **git remote -v** to check remote link - should be absent
+Go to Heroku Settings page for this project 
+Copy git url for this project eg: https://git.heroku.com/thorin-and-company-learning.git
+In CLI used **git remote add heroku https://git.heroku.com/thorin-and-company-learning.git** or equivalent
+Use **git remote -v** to check above
+Use **git status** to check status is clean
+Use **git push -u heroku master** to push files
 
 ### Resources and reference / support used
 VSCode setup Instructions:
