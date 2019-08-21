@@ -96,8 +96,14 @@ Error: no default language detected.
 
 #### Create requirements.txt
 Type **sudo pip3 freeze --local > requirements.txt** to create requirements.txt file in current directory
+Check requirements.txt exists and has content expected eg Flask
+Pip will install python and requirements.
 
 #### Create proc file to instruct Heroku how to run project
+The proc file is a Heroku specific file that tells Heroku how to run project
+Use **echo web: python app.py > Procfile** to redirect to Procfile
+Use **git add Procfile** to add Procfile and commit. NB Use capital p
+
 
 ### Resources and reference / support used
 VSCode setup Instructions:
