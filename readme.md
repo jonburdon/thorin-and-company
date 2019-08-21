@@ -69,6 +69,9 @@ Pass variable to routing to hyperlink each h3 to member data using variables.
 Paste form from Bootstrap template.
 Add method="POST" for http method in form.
 Give each input in the form a name eg name="name" for name inputted.
+Refactor app.py line 32 to specify get and post methods allowed.
+Check debugger for a 200 response code when form clicked. (Everything works)
+Import request library from Flask in app.py line 3
 
 ### Resources and reference / support used
 VSCode setup Instructions:
