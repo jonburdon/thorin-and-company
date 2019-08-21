@@ -72,6 +72,10 @@ Give each input in the form a name eg name="name" for name inputted.
 Refactor app.py line 32 to specify get and post methods allowed.
 Check debugger for a 200 response code when form clicked. (Everything works)
 Import request library from Flask in app.py line 3
+Use if request.method on app.py line 34 to print message and form data to debugger when form used.
+Import flash function from flask (line 3 of app.py)
+Add flashed message to contact view in app.py
+Add with block to contact.html to display flash message
 
 ### Resources and reference / support used
 VSCode setup Instructions:

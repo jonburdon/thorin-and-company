@@ -1,10 +1,11 @@
 import os
 import json
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, flash
 
 # Create an instance, store in a variable called app.
 # __name__ is a built in variable to tell flask where to look for files
 app = Flask(__name__)
+app.secret_key = 'something_very_secret'
 
 @app.route("/")
 def index():
@@ -32,7 +33,10 @@ def about_member(member_name):
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":
+        flash("Thanks {}, we have received your message and will translate it into dwarf runes before replying shortly by scratching a rune on your front door.".format(request.form["name"]))
         print("POST Method used on contact page.")
+        print(request.form)
+        # could used request.form["name"] to access the dictionary in the request.form data
     return render_template("contact.html", page_title="Contact Us")
 
 @app.route("/careers")
