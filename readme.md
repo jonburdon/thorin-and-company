@@ -1,4 +1,4 @@
-# Flask Introduction
+# Python with Flask Introduction
 
 Project created following tutorial followed from the Code Institute. Adapted to use VSCode on a mac instead of AWS Cloud9 as used in the tutorial.
 This readme file is the developers own documentation for the learning project.
@@ -77,6 +77,14 @@ Import flash function from flask (line 3 of app.py)
 Add flashed message to contact view in app.py
 Add with block to contact.html to display flash message
 
+### Deployment
+Type **heroku** to check Heroku installed.
+If not installed, install heroku with **brew tap heroku/brew && brew install heroku**
+Use **heroku login** to login from CLI. (Opens browser)
+Use **heroku apps** to list apps created
+Can use **heroku apps:rename newnamehere --app currentnamehere** to rename
+Check app is running eg **https://thorin-and-company-learning.herokuapp.com/**
+
 ### Resources and reference / support used
 VSCode setup Instructions:
 https://code.visualstudio.com/docs/python/tutorial-flask
@@ -86,3 +94,6 @@ https://startbootstrap.com/themes/clean-blog/
 
 Text content from:
 https://lotr.fandom.com/wiki/Thorin_and_Company
+
+Installing Heroku:
+https://devcenter.heroku.com/articles/heroku-cli
