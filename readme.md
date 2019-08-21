@@ -114,7 +114,7 @@ Still will not run on Heroku - need to start web process.
 Use **heroku ps:scale web=1** to start web process
 Set IP and Port environment variables on Heroku project settings.
 Set Config vars to: IP 0.0.0.0 and PORT to 5000
-Click restart all dynos in Heroku
+Click **More <>** button **Restart all dynos** in Heroku
 App should now be running fully in the browser.
 
 ### Resources and reference / support used
