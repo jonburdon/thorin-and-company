@@ -55,9 +55,14 @@ Create company.json file which contains data on Thorin & Company (name, bio, ima
 Display the above in about.html
 Iterate through json data to display each member of the company on the about.html page
 
-### Logic
+### Template Logic
 Add list data 1,2,3 to app.py and use a for loop on about.html to display this data in three <p> tags.
+Use for loop to display data on each member.
+Use if loop to check loop.index and display image on left or right of text for that member accordingly.
+Add if loop to remove hr if loop.index is equal to 13.
 
+### Advanced Routing
+Use new route about/member_name to hyperlink each title to a page for that member.
 
 ### Resources and reference / support used
 VSCode setup Instructions:
