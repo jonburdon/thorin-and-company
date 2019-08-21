@@ -1,7 +1,10 @@
 # Python with Flask Introduction
 
-Project created following tutorial followed from the Code Institute. Adapted to use VSCode on a mac instead of AWS Cloud9 as used in the tutorial.
-This readme file is the developers own documentation for the learning project.
+## NB Project created following tutorial followed from the Code Institute.
+Adapted to use VSCode on a mac instead of AWS Cloud9 as used in the tutorial.
+## This readme file is the developers own documentation for the learning project.
+
+View Deployed project here: https://thorin-and-company-learning.herokuapp.com/
 
 ## Project Aims
 * Create a Fan Page for Thorin and Company
