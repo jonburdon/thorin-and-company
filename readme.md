@@ -63,6 +63,12 @@ Add if loop to remove hr if loop.index is equal to 13.
 
 ### Advanced Routing
 Use new route about/member_name to hyperlink each title to a page for that member.
+Pass variable to routing to hyperlink each h3 to member data using variables.
+
+### Handling form
+Paste form from Bootstrap template.
+Add method="POST" for http method in form.
+Give each input in the form a name eg name="name" for name inputted.
 
 ### Resources and reference / support used
 VSCode setup Instructions:
