@@ -78,6 +78,12 @@ Add flashed message to contact view in app.py
 Add with block to contact.html to display flash message
 
 ### Deployment
+#### Four steps to deploying in Heroku
+1. Create Heroku app
+2. Link git repo
+3. Create requirements.txt
+4. Create Procfile
+
 Type **heroku** to check Heroku installed.
 If not installed, install heroku with **brew tap heroku/brew && brew install heroku**
 Use **heroku login** to login from CLI. (Opens browser)
@@ -108,6 +114,8 @@ Still will not run on Heroku - need to start web process.
 Use **heroku ps:scale web=1** to start web process
 Set IP and Port environment variables on Heroku project settings.
 Set Config vars to: IP 0.0.0.0 and PORT to 5000
+Click restart all dynos in Heroku
+App should now be running fully in the browser.
 
 ### Resources and reference / support used
 VSCode setup Instructions:
