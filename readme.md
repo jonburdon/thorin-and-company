@@ -103,7 +103,11 @@ Pip will install python and requirements.
 The proc file is a Heroku specific file that tells Heroku how to run project
 Use **echo web: python app.py > Procfile** to redirect to Procfile
 Use **git add Procfile** to add Procfile and commit. NB Use capital p
-
+Use **git push** to push files
+Still will not run on Heroku - need to start web process.
+Use **heroku ps:scale web=1** to start web process
+Set IP and Port environment variables on Heroku project settings.
+Set Config vars to: IP 0.0.0.0 and PORT to 5000
 
 ### Resources and reference / support used
 VSCode setup Instructions:
