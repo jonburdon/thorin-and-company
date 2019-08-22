@@ -4,7 +4,7 @@
 Adapted to use VSCode on a mac instead of AWS Cloud9 as used in the tutorial.
 ## This readme file is the developers own documentation for the learning project.
 
-View Deployed project here: https://thorin-and-company-learning.herokuapp.com/
+## View deployed project here: https://thorin-and-company-learning.herokuapp.com/
 
 ## Project Aims
 * Create a Fan Page for Thorin and Company
@@ -19,6 +19,29 @@ View Deployed project here: https://thorin-and-company-learning.herokuapp.com/
 * Use forms to take data from client and pass to server
 * Post data from a HTML form to the backend
 * Deploy a Flask project using Heroku
+
+## Features
+* Responsive bootstrap template
+* Consistent header across all pages
+* Hero image on home page
+* Consistent header styles throughout via bootstrap template
+* About page features bio information on each member
+* About page loads data from ad hoc json database and links to sub pages for each element in the database
+* Contact form with logging of content submitted and flash message in response
+
+## Technologies
+* HTML
+* CSS
+* Bootstrap
+* Python
+* Flask
+* Jinja
+
+## Future Plans
+* Read Jinja and Flask documentation fully, follow Flask demo tutorial
+* Fully functioning email form by adding a flask Extension
+* Create a branch, load json data from Star Wars API and use this as the source for a Star Wars character profile
+* Create a branch and refactor the project for a Hogwarts Students database, including a database for each of the four houses
 
 ## Approach
 
@@ -37,7 +60,6 @@ In Terminal **python3 -m flask run** to run the app and serve
 ### Rendering html
 Import the **render_template** function from Flask and use this to render files eg index.html
 Html files saved in templates folder for Flask conventions.
-
 
 ### Routing
 Add routing using / for index.html and /about for about.html
@@ -121,7 +143,7 @@ Click **More <>** button **Restart all dynos** in Heroku
 App should now be running fully in the browser.
 
 #### Troubleshooting
-Needed to replace:
+Need to replace:
 
 if __name__ == "__main__": 
     app.run(debug=True) 
@@ -147,3 +169,13 @@ https://lotr.fandom.com/wiki/Thorin_and_Company
 
 Installing Heroku:
 https://devcenter.heroku.com/articles/heroku-cli
+
+Jinja documentation:
+https://jinja.palletsprojects.com/en/2.10.x/
+
+Flask documentation:
+https://flask.palletsprojects.com/en/1.0.x/
+
+Using python environments in VScode:
+https://code.visualstudio.com/docs/python/environments
+
